@@ -40,7 +40,8 @@ sub show : Chained('load') PathPart('')
     $c->model('Language')->load_for_works(@works);
     $c->stash(
         works => \@works,
-        template => 'iswc/index.tt',
+        current_view => 'Node',
+        component_path => 'iswc/Index'
     );
 }
 

@@ -437,6 +437,7 @@ sub TO_JSON {
         current_language_html
         entity
         hide_merge_helper
+        iswc
         jsonld_data
         last_replication_date
         linked_entities
@@ -446,6 +447,7 @@ sub TO_JSON {
         server_details
         server_languages
         to_merge
+        works
     );
 
     my %stash;
