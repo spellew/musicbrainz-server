@@ -436,6 +436,7 @@ sub TO_JSON {
         current_language
         current_language_html
         entity
+        format_stats
         hide_merge_helper
         jsonld_data
         last_replication_date
@@ -445,6 +446,7 @@ sub TO_JSON {
         new_edit_notes
         server_details
         server_languages
+        stats
         to_merge
     );
 
