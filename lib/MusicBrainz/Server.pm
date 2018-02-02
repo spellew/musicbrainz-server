@@ -435,14 +435,17 @@ sub TO_JSON {
     my @stash_keys = qw(
         current_language
         current_language_html
+        date_collected
         entity
         hide_merge_helper
         jsonld_data
+        language_stats
         last_replication_date
         linked_entities
         makes_no_changes
         merge_link
         new_edit_notes
+        script_stats
         server_details
         server_languages
         to_merge
