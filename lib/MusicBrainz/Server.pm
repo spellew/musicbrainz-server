@@ -435,6 +435,7 @@ sub TO_JSON {
     my @stash_keys = qw(
         current_language
         current_language_html
+        date_collected
         entity
         hide_merge_helper
         instrument_types
@@ -447,6 +448,7 @@ sub TO_JSON {
         new_edit_notes
         server_details
         server_languages
+        stats
         to_merge
     );
 
