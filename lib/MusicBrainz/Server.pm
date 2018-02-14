@@ -437,6 +437,7 @@ sub TO_JSON {
         current_language_html
         date_collected
         entity
+        format_stats
         hide_merge_helper
         instrument_types
         instruments_by_type
