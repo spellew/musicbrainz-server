@@ -58,6 +58,15 @@ sub alpha_3_code {
     return $self->iso_code_3 // $self->iso_code_2t;
 }
 
+around TO_JSON => sub {
+    my ($orig, $self) = @_;
+
+    return {
+        %{$self->$orig},
+        iso_code_3 => [$self->iso_code_3],
+    };
+};
+
 __PACKAGE__->meta->make_immutable;
 no Moose;
 1;

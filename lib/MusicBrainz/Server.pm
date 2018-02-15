@@ -442,11 +442,13 @@ sub TO_JSON {
         instrument_types
         instruments_by_type
         jsonld_data
+        language_stats
         last_replication_date
         linked_entities
         makes_no_changes
         merge_link
         new_edit_notes
+        script_stats
         server_details
         server_languages
         stats
