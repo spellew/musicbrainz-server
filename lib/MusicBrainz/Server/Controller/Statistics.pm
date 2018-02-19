@@ -272,6 +272,9 @@ sub editors : Path('editors') {
 
         top_recently_active_voters => $top_recently_active_voters,
         top_voters => $top_active_voters,
+        
+        current_view => 'Node',
+        component_path => 'statistics/Editors.js',
     );
 }
 

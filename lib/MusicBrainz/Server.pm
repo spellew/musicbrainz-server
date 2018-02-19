@@ -456,6 +456,10 @@ sub TO_JSON {
         server_languages
         stats
         tag
+        top_editors
+        top_recently_active_editors
+        top_recently_active_voters
+        top_voters
         to_merge
     );
 
